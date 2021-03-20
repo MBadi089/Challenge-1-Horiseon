@@ -18,3 +18,4 @@ Screenshots of improved code I made:
 ![Horiseon CSS Code Screenshot 4](https://user-images.githubusercontent.com/79673757/111883451-13bef400-8981-11eb-989b-385d89cd9c6f.png)
 
 Link to the deployed application: 
+https://mbadi089.github.io/Challenge-1-Horiseon/
