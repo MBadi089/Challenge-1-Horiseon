@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+/* This targets the body of the code and gives it a background color*/
+body {
+    background-color: #d9dcd6;
+}
+/*This targets the header box (at the top of the webpage) and styles it */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:  #0072bb; /*Changed the color to match the benefits and hero colors (blue) */
+    color: #ffffff;
+    
+}
+/*This targets the h1 (Horiseon) at the top of the webpage and styles it */
+.header h1 {
+    display: inline-block;
+    font-size: 52px; /*Adjusted the font size from 48px to 52px to make it a bit more noticeable */
+    cursor:pointer; /*added a pointer to the "Horiseon" to be clickable */
+}
+/*This targets only the "seo" in the company name "Horiseon" and changes the color */
+.header h1 .seo {
+    color:white; /* #d9dcd6; <--- will keep this original color for "seo" if company doesn't like my alternate decision */
+    border-bottom: double; /*added a border bottom to the "seo" since the color to highlight it wasn't recognizable. */
+}
+/*This targets the header div section (Search Engine, Online Rep, Social Media..) and creates the blocks, styles the font, and margin */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px; /*Changed the font size from 20px to 25px to counter the Heriseon font increase */
+}
+/*targets only the unorder list <ul> */
+.header div ul {
+    list-style-type: none;
+}
+/*targets the unordered list and the list within it (<ul> <li>) and styles it in the header (top of the webpage box) */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*This targets the <a> "Search Engine.." at the top of the webpage where the User can click on. This styles the font color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Copied this code from the bottom of the page and placed it in the header section to organize it and make it easier
+for the coder to read and follow each step */
+/*Added the three elements together since they're all styled the same way and cleans up the code */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    border-radius: 25px; /*added a rounded border to give the webpage more shape */
+}
+/*Added the three elements together since they're all styled the same way and cleans up the code */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+/*Added the three elements together since they're all styled the same way and cleans up the code */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*End of the Header Section */
+
+
+/*This targets ALL the p (paragraphs) in the webpage */
+p {
+    font-size: 20px; /*adjusted the font size to all the paragraphs making it easier to read */
+}
+/*This calls the class .hero and displays the background image and styles it to fit in the webpage */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*This targets the "Search Engine and Social Media" sections on the webpage and adjusts the image to the left and text on the right side of it */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*This targets the "Online Rep" section on the webpage and adjusts the image to the right and the text on the left side of it */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*This targets everything in the content class (div-/div)*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 30px; /*adjusted the left margin to even out the open grey areas of the page */
+}
+/*This targets the benefits class and creates a column to the right side of the webpage next to the content class and styles it */
+.benefits {
+    margin-right: 20px;
+    padding: 19px; /*adjusted the padding to the same height as the hero boxes */
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  #0072bb; /*Changed the color to match the hero blue color */
+    border-radius: 25px; /*added this rounded border to give the webpage more shape */
+}
+/*added this element to increase the font size and style of the column */
+.benefits h3 {
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+/*added this element to adjust the font size in the paragraph */
+.benefits p {
+    font-size: 18px;
+}
+/*Added the three elements together since they're all styled the same way and cleans up the code */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: white;
+}
+/*Added the three elements together since they're all styled the same way and cleans up the code */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Added the three image elements together since they're all styled the same way and cleans up the code */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This targets the footer of the webpage and styles it */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #0072bb; /*added a blue background to the padding to blend in with the overall page */
+    color: white; /*made the text white to make it pop like the paragraphs */
+}
+/*This targets the "Made with ❤️️ by Horiseon" and styles the font size */
+.footer h2 {
+    font-size: 20px;
+
+}/*added another element for the footer paragraph to style it and give it a nice touch for the padding box */
+.footer p {
+    border-bottom: 1px solid white;
+}
